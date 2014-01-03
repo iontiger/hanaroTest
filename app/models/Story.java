@@ -6,13 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Date;
 
-/**
- * Created with IntelliJ IDEA.
- * User: shekhargulati
- * Date: 27/11/13
- * Time: 5:50 PM
- * To change this template use File | Settings | File Templates.
- */
+
 @Entity
 public class Story extends Model{
 
