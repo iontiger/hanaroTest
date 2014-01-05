@@ -11,7 +11,8 @@ object ApplicationBuild extends Build {
     // Add your project dependencies here,
     javaCore,
     javaJdbc,
-    javaEbean
+    javaEbean,
+	"mysql" % "mysql-connector-java" % "5.1.27"
 	// "sqljdbc4" % "com.microsoft.sqlserver" % "3.0"
 	// "net.sourceforge.jtds" % "jtds" % "1.3.1"
   )
